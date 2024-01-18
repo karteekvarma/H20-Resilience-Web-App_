@@ -1,13 +1,13 @@
 import Link from "next/link"
 import Contact from "../components/Contact"
 
-// function Footer() {
-//     return (
-//       <footer className="bg-gray-200 dark:bg-gray-700 px-6 py-4">
-//         <Contact />
-//       </footer>
-//     )
-//   }
+function Footer() {
+    return (
+      <footer className="bg-gray-200 dark:bg-gray-700 px-6 py-4">
+        <Contact />
+      </footer>
+    )
+  }
 
 export default function Home() {
     return (
