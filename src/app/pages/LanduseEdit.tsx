@@ -102,22 +102,12 @@ export default function Component() {
                     <div className="flex items-center justify-center">
                     <img
                         className="rounded-lg w-full h-full overflow-hidden"
-                        src="/landuse.png" // Add the image source here
-                        alt="Landuse Image" // Add alt text for accessibility
+                        src="/landuse.png" 
+                        alt="Landuse Image"
                     />
                     </div>
                 </div>
                 </div>
-                {/* <div>
-                <h2 className="text-lg font-semibold p-4 border-b dark:border-gray">Predicted Flood Map</h2>
-                <div className="flex-1 flex w-4/4 items-center justify-center mt-4 mb-4">
-                    <img
-                    className="rounded-lg max-w-[80%] h-full overflow-hidden"
-                    src="/landuse.png" // Add the image source here
-                    alt="Landuse Image" // Add alt text for accessibility
-                    />
-                </div>
-                </div> */}
 
                 <div className="flex flex-col w-1/4 bg-gray-100 dark:bg-gray-800 border-l dark:border-gray-700">
                     <h2 className="text-lg font-semibold p-4 border-b dark:border-gray-700">Location Panel</h2>
