@@ -19,8 +19,8 @@ export default function Component() {
     <div className="flex flex-col h-screen">
       {/* <Navbar /> */}
       {/* <main className="flex-1 flex flex-col md:flex-row gap-4 p-4"> */}
-        <LanduseEdit />
-        {/* <Results /> */}
+        {/* <LanduseEdit /> */}
+        <Results />
         {/* <Home /> */}
         <Footer />
       {/* </main> */}
