@@ -1,6 +1,14 @@
 import Link from "next/link"
 import { Button, ButtonGroup } from "@nextui-org/react";
+import Contact from "../components/Contact";
 
+function Footer() {
+    return (
+        <footer className="bg-gray-200 dark:bg-gray-700 px-6 py-4">
+            <Contact />
+        </footer>
+    )
+}
 
 export default function Results() {
     return (
@@ -43,9 +51,10 @@ export default function Results() {
             </main>
             <div className="p-4 flex justify-center">
                 <Button className="text-2xl font-bold border border-gray-500 bg-red-500 p-2">
-                    Back to Editing
+                    <Link href="/Landuse">Back to Editing</Link>
                 </Button>
             </div>
+            <Footer />
         </>
     )
 }

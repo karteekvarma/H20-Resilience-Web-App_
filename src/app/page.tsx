@@ -1,10 +1,7 @@
-import Link from "next/link"
-import { Button, ButtonGroup } from "@nextui-org/react";
-import Navbar from "./components/Navbar";
+
 import Contact from "./components/Contact";
-import Results from "./pages/Results";
-import LanduseEdit from "./pages/LanduseEdit";
-import Home from "./pages/Home";
+import Home from "./Home";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -17,13 +14,21 @@ function Footer() {
 export default function Component() {
   return (
     <div className="flex flex-col h-screen">
-      {/* <Navbar /> */}
-      {/* <main className="flex-1 flex flex-col md:flex-row gap-4 p-4"> */}
-        {/* <LanduseEdit /> */}
-        <Results />
-        {/* <Home /> */}
-        <Footer />
-      {/* </main> */}
+      <Image
+        style={{
+          backgroundImage: `url("/OIP.jpg")`,
+          backgroundRepeat: "repeat-round",
+          // backgroundSize: "100% auto",
+          zIndex: -1,
+          backgroundPosition: "center",
+          // filter: "grayscale(100%)",
+        }}
+        src="/OIP.jpg"
+        fill={true}
+        alt={"Background Image"}
+      />
+      <Home />
+      <Footer />
     </div>
   )
 }
