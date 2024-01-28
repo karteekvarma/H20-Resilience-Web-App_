@@ -34,47 +34,47 @@ export default function Component() {
                             </div>
                             <div className="border rounded-md bg-blue-200 text-center text-black flex">
                                 <div className="border rounded-md bg-blue-200 text-center text-black w-1/4 font-semibold">2</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Multi Family Residential</div>
                             </div>
                             <div className="border rounded-md bg-green-200 text-center text-black flex">
                                 <div className="border rounded-md bg-green-200 text-center text-black w-1/4 font-semibold">3</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Commercial</div>
                             </div>
                             <div className="border rounded-md bg-yellow-200 text-center text-black flex">
                                 <div className="border rounded-md bg-yellow-200 text-center text-black w-1/4 font-semibold">4</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Mixed Commercial/ Residential</div>
                             </div>
                             <div className="border rounded-md bg-purple-200 text-center text-black flex">
                                 <div className="border rounded-md bg-purple-200 text-center text-black w-1/4 font-semibold">5</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Industrial</div>
                             </div>
                             <div className="border rounded-md bg-pink-200 text-center text-black flex">
                                 <div className="border rounded-md bg-pink-200 text-center text-black w-1/4 font-semibold">6</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Institutional</div>
                             </div>
                             <div className="border rounded-md bg-indigo-200 text-center text-black flex">
                                 <div className="border rounded-md bg-indigo-200 text-center text-black w-1/4 font-semibold">7</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Open Space</div>
                             </div>
                             <div className="border rounded-md bg-teal-200 text-center text-black flex">
                                 <div className="border rounded-md bg-teal-200 text-center text-black w-1/4 font-semibold">8</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Agricultural</div>
                             </div>
                             <div className="border rounded-md bg-gray-200 text-center text-black flex">
                                 <div className="border rounded-md bg-gray-200 text-center text-black w-1/4 font-semibold">9</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Water</div>
                             </div>
                             <div className="border rounded-md bg-red-200 text-center text-black flex">
                                 <div className="border rounded-md bg-red-200 text-center text-black w-1/4 font-semibold">10</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Transportation/ Communication/ Utilities</div>
                             </div>
                             <div className="border rounded-md bg-blue-200 text-center text-black flex">
                                 <div className="border rounded-md bg-blue-200 text-center text-black w-1/4 font-semibold">11</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Under Construction</div>
                             </div>
                             <div className="border rounded-md bg-green-200 text-center text-black flex">
                                 <div className="border rounded-md bg-green-200 text-center text-black w-1/4 font-semibold">12</div>
-                                <div className="flex-1 text-xs font-semibold">Single Family Residential</div>
+                                <div className="flex-1 text-xs font-semibold">Vacant</div>
                             </div>
                         </div>
                     </div>
@@ -93,22 +93,11 @@ export default function Component() {
                                     />
                 </div>
                 </div>
-                {/* <div className="flex">
-                    <div className="flex-1">
-                        <h2 className=" flex items-center justify-center text-lg font-semibold p-4">Predicted Flood Map</h2>
-                        <div className="flex items-center justify-center">
-                            <img
-                                className="rounded-lg w-full h-full overflow-hidden"
-                                src="/landuse.png"
-                                alt="Landuse Image"
-                            />
-                        </div>
-                    </div>
-                </div> */}
 
-                <div className="flex flex-col w-1/4 bg-gray-100 dark:bg-gray-800 border-l dark:border-gray-700">
+
+                <div className="flex flex items-center flex-col w-1/4 bg-gray-100 dark:bg-gray-800 border-l dark:border-gray-700">
                     <h2 className="text-lg font-semibold p-4 border-b dark:border-gray-700">Location Panel</h2>
-                    <div className="p-6 space-y-2 w-full">
+                    <div className= "flex-col flex items-center p-6 space-y-2 w-full">
                         <Button className="text border border-gray-500 p-2">
                             <Link href="#" style={{ width: '120px' }}>Enter Location</Link>
                         </Button>
